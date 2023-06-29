@@ -1,0 +1,504 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --header-width: 84px;
+
+  /*========== Font & Typography ==========*/
+  --body-font: "Noto Sans", sans-serif;
+  --normal-font-size: 0.938rem;
+
+  /*========== Colors ==========*/
+  --first-color: hsl(214, 89%, 52%);
+  --title-color: hsl(228, 12%, 15%);
+  --text-color: hsl(0, 0%, 2%);
+  --body-color: hsl(0, 0%, 100%);
+  --container-color: hsl(0, 0%, 100%);
+  --overlay-hover-color: rgba(0, 0, 0, 0.05);
+  --overlay-active-color: #e7f3ff;
+}
+
+@media screen and (min-width: 968px) {
+  :root {
+    --normal-font-size: 1rem;
+  }
+}
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+h1 {
+  font-size: 4rem;
+  color: var(--title-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.4;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/*=============== THEME ===============*/
+/*========== Colors ==========*/
+body.dark-theme {
+  --title-color: hsl(223, 15%, 91%);
+  --text-color: hsl(223, 15%, 91%);
+  --body-color: hsl(210, 4%, 10%);
+  --container-color: hsl(210, 3%, 15%);
+  --overlay-hover-color: rgba(255, 255, 255, 0.1);
+  --overlay-active-color: rgba(45, 136, 255, 0.2);
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.section {
+  padding: 4.5rem 0 4.5rem;
+}
+
+.section--fullsize {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.section__title,
+.section__title-center {
+  font-size: 2.5rem;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+
+.section__subtitle,
+.section__subtitle-center {
+  display: block;
+  font-size: 1.25rem;
+  line-height: 1.1;
+  font-weight: medium;
+  color: var(--title-color);
+  margin-bottom: 1rem;
+}
+
+.container {
+  --width: 980px;
+  --width-large: 1440px;
+  --padding: 1.5rem;
+  max-width: var(--width);
+  padding-inline: var(--padding);
+  margin-inline: auto;
+}
+
+.container--large {
+  max-width: var(--width-large);
+}
+
+a {
+  color: var(--text-color);
+}
+
+.link,
+.button {
+  display: inline-block;
+  background-color: var(--body-color);
+  color: var(--title-color);
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  transition: 0.3s;
+}
+
+.link:hover,
+.link:focus,
+.button:hover,
+.button:focus {
+  background-color: var(--overlay-hover-color);
+}
+
+.link--active,
+.button--active {
+  background-color: var(--overlay-active-color);
+  color: var(--first-color);
+}
+
+.link--active:hover,
+.link--active:focus,
+.button--active:hover,
+.button--active:focus {
+  background-color: var(--overlay-active-color);
+}
+
+.text--center {
+  text-align: center;
+}
+
+.icon {
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.icon i {
+  display: block;
+}
+
+/*=============== NAV ===============*/
+@media screen and (max-width: 767px) {
+  .nav__logo,
+  .nav__toggle,
+  .nav__name {
+    display: none;
+  }
+
+  .nav__list {
+    position: fixed;
+    bottom: 2rem;
+    background-color: var(--container-color);
+    box-shadow: 0 8px 24px hsla(228, 81%, 24%, 0.15);
+    width: 90%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 36px;
+    transition: 0.4s;
+  }
+}
+
+.nav__logo {
+  padding-inline: 0.5rem;
+  white-space: nowrap;
+}
+
+.nav__link {
+  display: flex;
+  font-weight: 500;
+  transition: 0.3s;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  white-space: nowrap;
+}
+
+.nav__link i {
+  font-size: 1.25rem;
+}
+
+.nav__link:hover {
+  color: var(--first-color);
+}
+
+#nav-theme {
+  cursor: pointer;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: var(--container-color);
+  border: 1px solid var(--text-color);
+  border-radius: 5px;
+  padding: 5px;
+  pointer-events: none;
+}
+
+/*=============== HOME ===============*/
+.home__container {
+  display: grid;
+}
+
+.home__data {
+  justify-self: center;
+  margin-top: 4.5rem;
+}
+
+.home__link {
+  display: inline-flex;
+  align-items: center;
+}
+
+.home__icon {
+  margin-left: 0.5rem;
+}
+
+/*=============== INTERNET-ACCESS ===============*/
+.internet-access__data {
+  margin-bottom: 1rem;
+}
+
+.internet-access__chart {
+  margin-top: 2rem;
+}
+
+/*=============== INTERNET-USAGE ===============*/
+.internet-usage__data {
+  margin-bottom: 1rem;
+}
+
+.internet-usage__chart {
+  margin-top: 2rem;
+}
+
+.internet-usage__legend ul {
+  display: flex;
+  justify-content: center;
+}
+
+.internet-usage__legend li {
+  display: inline-block;
+}
+
+.internet-usage__legend li:not(:first-child) {
+  margin-left: 0.5rem;
+}
+
+.internet-usage__legend li:before {
+  content: "\00a0\2022\00a0\00a0";
+  font-size: 1.25rem;
+}
+
+.internet-usage__legend li:first-child:before {
+  color: hsl(42, 92%, 56%);
+}
+
+.internet-usage__legend li:nth-child(2):before {
+  color: var(--first-color);
+}
+
+.internet-usage__legend li:last-child:before {
+  color: hsl(350, 88%, 60%);
+}
+
+/*=============== INTERNET-ACTIVITY ===============*/
+.internet-activity__data {
+  margin-bottom: 1rem;
+}
+
+.internet-activity__chart {
+  margin-top: 2rem;
+}
+
+/*=============== INTERNET-PURCHASES ===============*/
+.internet-purchases__data {
+  margin-bottom: 1rem;
+}
+
+.internet-purchases__chart {
+  margin-top: 2rem;
+}
+
+.internet-purchases__legend ul {
+  display: flex;
+  justify-content: center;
+}
+
+.internet-purchases__legend li {
+  display: inline-block;
+}
+
+.internet-purchases__legend li:not(:first-child) {
+  margin-left: 0.5rem;
+}
+
+.internet-purchases__legend li:before {
+  content: "\00a0\2022\00a0\00a0";
+  font-size: 1.25rem;
+}
+
+.internet-purchases__legend li:first-child:before {
+  color: hsl(42, 92%, 56%);
+}
+
+.internet-purchases__legend li:nth-child(2):before {
+  color: var(--first-color);
+}
+
+.internet-purchases__legend li:last-child:before {
+  color: hsl(350, 88%, 60%);
+}
+
+/*=============== GENERAL ===============*/
+.internet-access__filter,
+.internet-usage__filter,
+.internet-activity__filter,
+.internet-purchases__filter {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.select__title {
+  font-size: smaller;
+  font-weight: 600;
+  color: var(--title-color);
+  margin-bottom: 0.25rem;
+}
+
+/*=============== FOOTER ===============*/
+.footer {
+  margin-top: 4.5rem;
+  margin-bottom: 9rem;
+}
+
+.footer__container {
+  display: grid;
+  gap: 1rem;
+  border-top: 1px solid var(--overlay-hover-color);
+  padding-block: 2rem;
+  align-items: center;
+}
+
+.footer__copy {
+  text-align: center;
+}
+
+.footer__source {
+  display: inline-flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-self: center;
+}
+
+.footer__icon {
+  display: flex;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 320px) {
+  .nav__list {
+    column-gap: 20px;
+  }
+}
+
+/* For medium devices */
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 767px) {
+  .main,
+  .footer {
+    margin-left: var(--header-width);
+  }
+
+  .section {
+    padding: 6.5rem 0 6.5rem;
+  }
+
+  .container {
+    margin: auto;
+  }
+
+  .nav {
+    position: fixed;
+    left: 0;
+    background-color: var(--container-color);
+    box-shadow: 1px 0 4px hsla(228, 81%, 49%, 0.15);
+    width: var(--header-width);
+    height: 100vh;
+    padding: 2rem 1.5rem;
+    transition: 0.3s;
+  }
+  .nav__logo {
+    display: flex;
+  }
+  .nav__logo i {
+    font-size: 1.25rem;
+    color: var(--title-color);
+  }
+  .nav__logo-name {
+    color: var(--title-color);
+    font-weight: 600;
+  }
+  .nav__logo,
+  .nav__link {
+    align-items: center;
+    column-gap: 1rem;
+  }
+  .nav__list {
+    display: grid;
+    row-gap: 2rem;
+    margin-top: 10.5rem;
+  }
+  .nav__content {
+    overflow: hidden;
+    height: 100%;
+  }
+  .nav__toggle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: hsl(210, 3%, 15%);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    display: grid;
+    place-items: center;
+    top: 2rem;
+    right: -10px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+
+  .footer {
+    margin-top: 6.5rem;
+    margin-bottom: 0;
+  }
+
+  .footer__container {
+    display: flex;
+  }
+
+  .footer__copy {
+    flex-grow: 1;
+    text-align: start;
+  }
+}
+
+/* Show menu */
+.show-menu {
+  width: 255px;
+}
+
+/* Rotate toggle icon */
+.rotate-icon {
+  transform: rotate(180deg);
+}
+
+/* For 2K & 4K resolutions */
+@media screen and (min-width: 2048px) {
+  body {
+    zoom: 1.7;
+  }
+}
+
+@media screen and (min-width: 3840px) {
+  body {
+    zoom: 2.5;
+  }
+}

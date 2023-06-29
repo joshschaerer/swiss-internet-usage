@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Impact of Covid-19 on swiss internet usage</title>
+    <!--=============== BOXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./src/index.css" />
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <!--=============== NAV ===============-->
+      <div class="nav" id="nav">
+        <nav class="nav__content">
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="bx bx-chevron-right"></i>
+          </div>
+
+          <a href="#" class="nav__logo">
+            <i class="bx bx-wifi"></i>
+            <span class="nav__logo-name">Internet usage</span>
+          </a>
+
+          <div class="nav__menu" id="nav-menu">
+            <div class="nav__list">
+              <a href="#home" class="nav__link link--active">
+                <i class="bx bx-home-alt"></i>
+                <span class="nav__name">Dashboard</span>
+              </a>
+
+              <a href="#internet-access" class="nav__link">
+                <i class="bx bx-chart"></i>
+                <span class="nav__name">Internet access</span>
+              </a>
+
+              <a href="#internet-usage" class="nav__link">
+                <i class="bx bx-bar-chart-square"></i>
+                <span class="nav__name">Internet usage</span>
+              </a>
+
+              <a href="#internet-activity" class="nav__link">
+                <i class="bx bx-pie-chart"></i>
+                <span class="nav__name">Internet activity</span>
+              </a>
+
+              <a href="#internet-purchases" class="nav__link">
+                <i class="bx bx-credit-card-alt"></i>
+                <span class="nav__name">Internet purchases</span>
+              </a>
+
+              <!-- <a href="#internet-security" class="nav__link">
+								<i class="bx bx-check-shield"></i>
+								<span class="nav__name">Internet security</span>
+							</a> -->
+
+              <div class="nav__link" id="nav-theme">
+                <i class="bx bx-palette"></i>
+                <span class="nav__name">Theme</span>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main" id="main">
+      <!--=============== HOME ===============-->
+      <section class="home section section--fullsize" id="home">
+        <div class="home__container container">
+          <h1 class="text--center">
+            Impact of Covid-19 on swiss internet usage
+          </h1>
+
+          <div class="home__data">
+            <a href="#internet-access" class="home__link link">
+              Scroll down
+              <div class="home__icon icon">
+                <i class="bx bx-chevron-down-circle"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== INTERNET ACCESS ===============-->
+      <section class="internet-access section" id="internet-access">
+        <div class="section__container container">
+          <span class="section__subtitle">General</span>
+          <h2 class="section__title">Internet access</h2>
+        </div>
+
+        <div class="internet-access__container container">
+          <div class="internet-access__data">
+            <p>
+              The internet has been around since 1989, but widespread use of the
+              internet has only begun in the late 90ies. The swiss government
+              has been tracking the amount of people with internet access in
+              switzerland since 2014 and the number of households with access to
+              the internet has been steadily increasing. COVID-19 did not change
+              that fact overall but especially households in difficult financial
+              situations were hit harder by the pandemic than others.
+            </p>
+          </div>
+
+          <div class="internet-access__filter">
+            <div class="select">
+              <p class="select__title">Type</p>
+              <select
+                class="button select-content"
+                name="internetAccess"
+                id="internet-access-dropdown"></select>
+            </div>
+            <div class="select">
+              <p class="select__title">Region</p>
+              <select
+                class="button select-content"
+                name="internetAccess-language"
+                id="internet-access-language-dropdown"></select>
+            </div>
+            <div class="select">
+              <p class="select__title">Size</p>
+              <select
+                class="button select-content"
+                name="internetAccess-homeSize"
+                id="internet-access-homeSize-dropdown"></select>
+            </div>
+            <div class="select">
+              <p class="select__title">Financial situation</p>
+              <select
+                class="button select-content"
+                name="internetAccess-financialSituation"
+                id="internet-access-financialSituation-dropdown"></select>
+            </div>
+            <div class="select">
+              <p class="select__title">Result (#/%)</p>
+              <select
+                class="button select-content"
+                name="internetAccess-absolute"
+                id="internet-access-absolute-dropdown"></select>
+            </div>
+          </div>
+
+          <div class="internet-access__chart chart" id="chart-1"></div>
+        </div>
+      </section>
+
+      <!--=============== INTERNET USAGE ===============-->
+      <section class="internet-usage section" id="internet-usage">
+        <div class="section__container container">
+          <span class="section__subtitle">General</span>
+          <h2 class="section__title">Internet usage</h2>
+        </div>
+
+        <div class="internet-usage__container container">
+          <div class="internet-usage__data">
+            <p>
+              COVID-19 did not seem to have a significant impact on the time
+              people spend on the internet. Since a lot of people were at home
+              and couldn't leave the house. One explanation for that could be
+              the desire for change while people were stuck at home.
+            </p>
+          </div>
+
+          <div class="internet-usage__filter">
+            <div class="select">
+              <p class="select__title">Frequency</p>
+              <select
+                class="button select-content"
+                name="internetUsage"
+                id="internet-usage-dropdown"></select>
+            </div>
+            <div class="select">
+              <p class="select__title">Age</p>
+              <select
+                class="button select-content"
+                name="internetUsage-age"
+                id="internet-usage-age-dropdown"></select>
+            </div>
+            <div class="select">
+              <p class="select__title">Education</p>
+              <select
+                class="button select-content"
+                name="internetUsage-education"
+                id="internet-usage-education-dropdown"></select>
+            </div>
+            <div class="select">
+              <p class="select__title">Result (#/%)</p>
+              <select
+                class="button select-content"
+                name="internetUsage-absolute"
+                id="internet-usage-absolute-dropdown"></select>
+            </div>
+          </div>
+
+          <div class="internet-usage__chart chart" id="chart-4"></div>
+
+          <div class="internet-usage__legend legend">
+            <ul>
+              <li>Gender - Total</li>
+              <li>Men</li>
+              <li>Women</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== INTERNET ACTIVITY ===============-->
+      <section class="internet-activity section" id="internet-activity">
+        <div class="section__container container">
+          <span class="section__subtitle">General</span>
+          <h2 class="section__title">Internet activity</h2>
+        </div>
+
+        <div class="internet-activity__container container">
+          <div class="internet-activity__data">
+            <p>
+              The switch from Email & Co. to Video Conferencing and Social media
+              is in full gear. Though COVID-19 has not made as big of an impact
+              on that transition as one would expect. One possible explanation
+              for that, is this stats counts people who participated in an
+              activity and not the amount of time people spent on certain
+              activities
+            </p>
+          </div>
+
+          <div class="internet-activity__filter">
+            <div class="select">
+              <p class="select__title">Year</p>
+              <select
+                class="button"
+                name="internetActivity-date"
+                id="internet-activity-date-dropdown"></select>
+            </div>
+          </div>
+
+          <div class="internet-activity__chart chart" id="chart-5"></div>
+        </div>
+      </section>
+
+      <!--=============== INTERNET PURCHASESES ===============-->
+      <section class="purchase-frequency section" id="internet-purchases">
+        <div class="section__container container">
+          <span class="section__subtitle">E-Commerce</span>
+          <h2 class="section__title">Online Purchases</h2>
+        </div>
+
+        <div class="internet-purchases__container container">
+          <div class="internet-purchases__data">
+            <p>
+              While generally more people are warming up to the idea of
+              purchasing goods on the internet, it is still mainly 'younger'
+              people that are active online shoppers. It's also interesting to
+              see that relaxation of covid-19 related regulations during summer
+              2020, was followed by a decrease of online purchases.
+            </p>
+          </div>
+          <div class="internet-purchases__filter">
+            <div class="select">
+              <p class="select__title">Age</p>
+              <select
+                class="button"
+                name="internetPurchases-age"
+                id="internet-purchases-age-dropdown"></select>
+            </div>
+
+            <div class="select">
+              <p class="select__title">Gender</p>
+              <select
+                class="button"
+                name="internetPurchases-gender"
+                id="internet-purchases-gender-dropdown"></select>
+            </div>
+
+            <div class="select">
+              <p class="select__title">Result (#/%)</p>
+              <select
+                class="button"
+                name="internetPurchases-absolute"
+                id="internet-purchases-absolute-dropdown"></select>
+            </div>
+          </div>
+
+          <div class="internet-purchases__charts">
+            <div class="internet-purchases__chart chart" id="chart-2"></div>
+          </div>
+        </div>
+
+        <div class="internet-purchases__legend legend">
+          <ul>
+            <li>In the last 3 months</li>
+            <li>In the last 12 months</li>
+            <li>At least once in life</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer" id="footer">
+      <div class="footer__container container">
+        <span class="footer__copy">
+          &#169; 2022 Joshua Schärer & Elias Mjoen. All rigths reserved.
+        </span>
+
+        <span class="footer__source">
+          <div class="footer__icon">
+            <i class="bx bx-info-circle"></i>
+          </div>
+          Sources:
+
+          <div class="footer__link">
+            <a
+              href="https://opendata.swiss/de/dataset/internetnutzung"
+              target="_blank"
+              class="link">
+              opendata.swiss
+            </a>
+            <a
+              href="https://www.bfs.admin.ch/bfs/de/home/statistiken/kultur-medien-informationsgesellschaft-sport/informationsgesellschaft/gesamtindikatoren/haushalte-bevoelkerung/internetnutzung.html"
+              target="_blank"
+              class="link">
+              bfs.admin
+            </a>
+          </div>
+        </span>
+      </div>
+    </footer>
+
+    <!--==================== D3 JS ===================-->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!--=============== INDEX JS ===============-->
+    <script src="./src/index.js" type="module"></script>
+  </body>
+</html>

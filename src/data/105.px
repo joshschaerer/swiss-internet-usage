@@ -1,0 +1,806 @@
+CHARSET="ANSI";
+AXIS-VERSION="2010";
+CODEPAGE="iso-8859-15";
+LANGUAGE="de";
+LANGUAGES="de","fr";
+CREATION-DATE="20151208 09:15";
+DECIMALS=1;
+SHOWDECIMALS=0;
+MATRIX="px-x-1604000000_105";
+SUBJECT-CODE="16";
+SUBJECT-AREA="16 - Kultur, Medien, Informationsgesellschaft, Sport";
+SUBJECT-AREA[fr]="16 - Culture, médias, société de l'information, sport";
+DESCRIPTION="Einzelpersonen und Sicherheit bei der Internetnutzung";
+DESCRIPTION[fr]="Usages privés d'internet: sécurité Internet";
+TITLE="Einzelpersonen und Sicherheit bei der Internetnutzung";
+TITLE[fr]="Usages privés d'internet: sécurité Internet";
+DESCRIPTIONDEFAULT=YES;
+CONTENTS="Einzelpersonen und Sicherheit bei der Internetnutzung";
+CONTENTS[fr]="Usages privés d'internet: sécurité internet";
+UNITS="Person";
+UNITS[fr]="Personne";
+STUB="Informatiksicherheit","Geschlecht","Altersklasse","Bildungsstand";
+STUB[fr]="Sécurité Internet","Sexe","Classe d'âge","Niveau de formation";
+HEADING="Jahr","Absolut / relativ","Resultat";
+HEADING[fr]="Année","Absolu / relatif","Résultat";
+VALUES("Informatiksicherheit")="Verwendung von Sicherheitssoftware zum Schutz Ihres Computers",
+"Die Sicherheit an einem andere Haushaltsmitglied delegieren",
+"Erstellen von Sicherheitskopien (mindestens einmal pro Monat)",
+"Auftreten von Sicherheitsproblemen im Internet (in den letzten zwölf Monaten) (bis 2017)",
+"Auftreten eines Virus oder einer anderen Infektion (in den letzten zwölf Monaten) (bis 2017)",
+"Auftreten von anderen Problemen als Spam oder Virus (in den letzten zwölf Monaten) (bis 2017)",
+"Empfang von Spam (in den letzten zwölf Monaten)",
+"Erhalt von betrügerischen Nachrichten (Phishing) (in den letzten zwölf Monaten) (ab 2019)",
+"Verlust von Daten wegen einem Virus oder einer anderen Infektion (in den letzten zwölf Monaten) (ab 2019)",
+"Hacking vom eigenen Profil auf sozialen Netzwerken oder vom E-Mail-Konto (in den letzten zwölf Monaten) (ab 2019)",
+"Nutzung von Sicherheitssoftware auf Ihrem Smartphone, unabhängig davon, wie sie installiert ist (ab 2019)";
+VALUES[fr]("Sécurité Internet")=
+"Utiliser un logiciel de sécurité informatique pour protéger votre ordinateur",
+"Confier la sécurité à quelqu'un d'autre dans le ménage",
+"Effectuer des copies de sauvegarde (au moins une fois par mois)",
+"Rencontrer un problème de sécurité (au cours des 12 derniers mois) (jusqu'en 2017)",
+"Attraper un virus ou une autre infection (au cours des 12 derniers mois) (jusqu'en 2017)",
+"Subir un problème de sécurité autre que spam ou virus (au cours des 12 derniers mois) (jusqu'en 2017)",
+"Recevoir du spam (au cours des 12 derniers mois)",
+"Recevoir des messages frauduleux (phishing) (au cours des 12 derniers mois) (depuis 2019)",
+"Subir une perte de données suite à un virus ou autre infection (au cours des 12 derniers mois) (depuis 2019)",
+"Se faire pirater son compte de réseau social ou de courriel (au cours des 12 derniers mois) (depuis 2019)",
+"Utiliser un logiciel de sécurité sur son smartphone, quel que soit le mode d'installation (depuis 2019)";
+VALUES("Geschlecht")="Geschlecht - Total","Mann","Frau";
+VALUES[fr]("Sexe")="Sexe - total","Homme","Femme";
+VALUES("Altersklasse")="Altersklasse - Total","15 bis 29 Jahre","30 bis 59 Jahre",
+"60 Jahre und älter";
+VALUES[fr]("Classe d'âge")="Classe d'âge - total","15 à 29 ans","30 à 59 ans","60 ans et plus";
+VALUES("Bildungsstand")="Bildungsstand - Total",
+"Ohne nachobligatorische Ausbildung (25 Jahre und älter)","Sekundarstufe II (25 Jahre und älter)",
+"Tertiärstufe (25 Jahre und älter)","Unter 25 Jahren";
+VALUES[fr]("Niveau de formation")="Niveau de formation - total",
+"Sans formation post-obligatoire (25 ans et plus)","Niveau secondaire II (25 ans et plus)",
+"Niveau tertiaire (25 ans et plus)","Moins de 25 ans";
+VALUES("Jahr")="2021","2019","2017","2014";
+VALUES[fr]("Année")="2021","2019","2017","2014";
+VALUES("Absolut / relativ")="Anzahl Personen","Anteil (in % der Gesamtbevölkerung)";
+VALUES[fr]("Absolu / relatif")="Nombre de personnes","Part (en % de la population totale)";
+VALUES("Resultat")="Wert","Konfidenzintervall +/-";
+VALUES[fr]("Résultat")="Valeur","Intervalle de confiance +/-";
+CODES("Informatiksicherheit")="PROVFCH","PROVFCH=7","UAVAL2CH","PROBSECCH","SECVIRCH","SECAUTRECH",
+"SECSPMCH","SECPHICH","SECLSTCH","SECHAKCH","MPPSSTOT";
+CODES[fr]("Sécurité Internet")="PROVFCH","PROVFCH=7","UAVAL2CH","PROBSECCH","SECVIRCH",
+"SECAUTRECH","SECSPMCH","SECPHICH","SECLSTCH","SECHAKCH","MPPSSTOT";
+CODES("Geschlecht")="0","1","2";
+CODES[fr]("Sexe")="0","1","2";
+CODES("Altersklasse")="0","1","2","3";
+CODES[fr]("Classe d'âge")="0","1","2","3";
+CODES("Bildungsstand")="0","1","2","3","4";
+CODES[fr]("Niveau de formation")="0","1","2","3","4";
+CODES("Jahr")="2021","2019","2017","2014";
+CODES[fr]("Année")="2021","2019","2017","2014";
+ELIMINATION("Geschlecht")="Geschlecht - Total";
+ELIMINATION[fr]("Sexe")="Sexe - total";
+ELIMINATION("Altersklasse")="Altersklasse - Total";
+ELIMINATION[fr]("Classe d'âge")="Classe d'âge - total";
+ELIMINATION("Bildungsstand")="Bildungsstand - Total";
+ELIMINATION[fr]("Niveau de formation")="Niveau de formation - total";
+PRECISION("Absolut / relativ","Anteil (in % der Gesamtbevölkerung)")=1;
+PRECISION[fr]("Absolu / relatif","Part (en % de la population totale)")=1;
+LAST-UPDATED="20211215 08:30";
+CONTACT="Sektion Wirtschaftsstruktur und -analysen, +41 58 463 67 26, E-Mail: info.wsa@bfs.admin.ch";
+CONTACT[fr]="Section Structure et analyses économiques, +41 58 463 67 26, e-mail: info.wsa@bfs.admin.ch";
+REFPERIOD="2021,2019,2017,2014";
+REFPERIOD[fr]="2021,2019,2017,2014";
+DATABASE="BFS - STAT-TAB / Bundesamt für Statistik, 2010 Neuchâtel / Schweiz / © Bundesamt für Statistik";
+DATABASE[fr]="OFS - STAT-TAB / Office fédéral de la statistique, 2010 Neuchâtel / Suisse / © Office fédéral de la statistique";
+SOURCE="BFS - OMN2021, OMN2019, OMN2017, OMN2014 - © BFS";
+SOURCE[fr]="OFS - OMN2021, OMN2019, OMN2017, OMN2014 - © OFS";
+SURVEY="Omnibus 2021: Erhebung zur Internetnutzung (OMN2021), Omnibus 2019: Erhebung zur Internetnut"
+"zung (OMN2019), Omnibus 2017: Erhebung zur Internetnutzung (OMN2017), Omnibus 2014: Erhebung zur Er"
+"nährung und zur Internetnutzung (OMN2014)";
+SURVEY[fr]="Omnibus 2021: Enquête sur l'utilisation d'internet (OMN2021), Omnibus 2019: Enquête sur "
+"l'utilisation d'internet (OMN2019), Omnibus 2017: Enquête sur l'utilisation d'internet (OMN2017), O"
+"mnibus 2014: Enquête sur l'alimentation et sur l'utilisation d'internet (OMN2014)";
+LINK="https://www.bfs.admin.ch/asset/de/px-x-1604000000_105";
+LINK[fr]="https://www.bfs.admin.ch/asset/fr/px-x-1604000000_105";
+NOTEX="<B>Resultat</B>:#Daten mit Vertrauensintervall. Das Vertrauensintervall (±) zeigt die Genauigkeit der Resultate einer Stichprobenerhebung, und soll bei der Selektion immer auch gewählt werden, um die Resultate richtig interpretieren zu können.#Die "
+"Unterschiede sind signifikant, wenn sich die Vertrauensintervalle nicht überschneiden.";
+NOTEX[fr]="<B>Résultat</B>:#Données indiquées avec un intervalle de confiance. L'intervalle de confiance (±) indique la précision du résultat dans le cas d'une enquête par échantillon, et doit toujours être sélectionné pour pouvoir interpréter "
+"correctement les résultats.#Les différences sont significatives lorsque les intervalles de confiance ne se recoupent pas.";
+NOTE="<B>Metainformation:</B>#Letzte Änderungen: Neuer Datensatz Jahr 2021#Stand der Datenbank: Dezember 2021#Referenzperiode: erstes Quartal#Raumbezug: Schweiz#Datenquelle: Omnibus 2021: Erhebung zur Internetnutzung (OMN2021), Omnibus 2019: Erhebung zur "
+"Internetnutzung (OMN2019), Omnibus 2017: Erhebung zur Internetnutzung (OMN2017), Omnibus 2014: Erhebung zur Ernährung und zur Internetnutzung (OMN2014)##<B>Verwendete Zeichen</B>#'( )' : Zahl entfällt weil statistisch nicht sicher genug (n<20 oder "
+"VK>30%)#' * ' : Zahl entfällt weil trivial oder Begriffe nicht anwendbar#'...' : Zahl unbekannt, weil noch nicht oder nicht mehr erhoben##<B>Methodik</B>#Die Daten stammen aus den Omnibus-Erhebungen IKT 2014, 2017, 2019 und 2021, die vom Bundesamt für "
+"Statistik durchgeführt wurden. Hierbei handelt es sich um Stichprobenerhebungen, die bei ca. 3000 Haushalten/Personen durchgeführt werden (2014: 2993; 2017: 2924; 2019:3004; 2021:3137). 2014 wurden die Daten mittels computergestützter telefonischer "
+"Interviews (CATI) erhoben. Seit 2017 beruht die Erhebung auf einer Mixed-Mode-Methode, d.h. die Interviews erfolgten zum Teil via Online-Fragebogen (CAWI) und zum Teil per Telefon (CATI).#Die Stichprobe ist nach Grossregionen (NUTS 2) geschichtet, wobei "
+"die Zielpopulation jeder Grossregion anteilmässig vertreten ist. Eine Ausnahme bildet die kleinste Grossregion, das Tessin, dessen Anteil entsprechend der kleinsten der übrigen Grossregionen, der Zentralschweiz, festgelegt wurde. Die Erhebung wurde in "
+"den Monaten April, Mai und Juni durchgeführt. Seit 2017 findet die Erhebung alle zwei Jahre statt. Die Personen werden nach dem Zufallsprinzip aus dem Stichprobenregister des BFS ausgewählt. Die Teilnahme ist freiwillig. Seit 2017 ist die Grundgesamtheit "
+"die ständige Wohnbevölkerung der privaten Haushalte zwischen 15 und 88 Jahren. Die Vergleiche mit den Vorjahren, in denen die Referenzbevölkerung Personen ab 15 Jahren umfasste, gelten weiterhin; lediglich für die Altersklasse der Personen ab 75 Jahren "
+"sind sie nicht möglich.##Weiterfürende Informationen zur Erhebung : #<A HREF= https://www.bfs.admin.ch/bfs/de/home/statistiken/kultur-medien-informationsgesellschaft-sport/erhebungen/omn2021.html TARGET=_blank> Omnibus 2021: Erhebung zur Internetnutzung</"
+"A>#";
+NOTE[fr]="<B>Métainformation:</B>#Dernières modifications: nouvelles données 2021#Etat de la banque de données: décembre 2021#Période de référence: premier trimestre#Référence spatiale: Suisse#Source des données: Omnibus 2021: Enquête sur l'utilisation "
+"d'internet (OMN2021), Omnibus 2019: Enquête sur l'utilisation d'internet (OMN2019), Omnibus 2017: Enquête sur l'utilisation d'internet (OMN2017), Omnibus 2014: Enquête sur l'alimentation et sur l'utilisation d'internet (OMN2014)##<B>Signes utilisés</B>#"
+"'( )' : Chiffre non indiqué par manque de fiabilité statistique (n<20 ou CV>30%)#' * ' : Chiffre non indiqué car évident ou non pertinent#'...' : Chiffre inconnu, pas encore ou plus relevé##<B>Méthodologie</B>#Les données proviennent des enquêtes Omnibus "
+"TIC 2014, 2017, 2019 et 2021 réalisées par l'Office fédéral de la statistique. Ce sont des enquêtes par échantillonnage auprès d'environ 3000 ménages/personnes (2993 en 2014, 2924 en 2017, 3004 en 2019, 3137 en 2021). En 2014 le mode de collecte était "
+"les interviews téléphoniques assistées par ordinateur (CATI). Dès 2017, les interviews ont été réalisés soit en ligne (CAWI) soit par téléphone (CATI).#L'échantillon est stratifié par grande région (NUTS 2), avec des tailles proportionnelles à la "
+"population cible de chaque grande région, excepté pour la plus petite, le Tessin, dont la taille était fixée égale à la plus petite des autres grandes régions, la Suisse centrale. La date d'exécution de l'enquête est d'avril à juin et la périodicité de "
+"l'enquête est bisannuelle. Les personnes sont sélectionnées aléatoirement dans le registre d'échantillonnage de l'OFS et la participation est facultative. Dès 2017, l'univers de base est la population résidante permanente des ménages privés âgée de 15 à "
+"88 ans. La comparaison avec les années précédentes, pour lesquelles la population de référence était celle des personnes âgées de 15 ans et plus reste valable, sauf pour la classe d'âge des personnes de 75 ans et plus.##Plus d'informations sur l'enquête :"
+" #<A HREF= https://www.bfs.admin.ch/bfs/fr/home/statistiques/culture-medias-societe-information-sport/enquetes/omn2021.html TARGET=_blank> Omnibus 2021: Enquête sur l'utilisation d'internet</A>#";
+VALUENOTE("Informatiksicherheit","Auftreten von Sicherheitsproblemen im Internet (in den letzten zwölf Monaten) (bis 2017)")="Bei Personen, die im Internet Sicherheitsprobleme hatten, ist mindestens eines der folgenden Probleme aufgetreten:#- Auftreten "
+"eines Virus oder eines ähnlichen Problems#- Spam: Erhalten unerwünschter E-Mails#- Missbrauch persönlicher Daten auf einer Internetseite oder anderer Verstoss gegen das Privatleben: z.B. Zugang zu privaten Informationen, Veröffentlichung von Fotos #- "
+"Finanzielle Einbussen wegen einem betrügerischen E-Mail oder wegen einem Link auf eine falsche Internetseite, auf der persönliche Zugangsdaten verlangt werden #- Finanzielle Einbussen wegen betrügerischer Verwendung der Kreditkarte #- Kinder haben im "
+"Haushalt Internetzugang zu Erwachsenenseiten oder zu Seiten, auf denen sie mit potenziell gefährlichen Personen in Kontakt kommen können.";
+VALUENOTE[fr]("Sécurité Internet","Rencontrer un problème de sécurité (au cours des 12 derniers mois) (jusqu'en 2017)")="Les personnes qui ont rencontré un problème de sécurité internet sont celles qui déclarent avoir personnellement rencontré au moins un "
+"des problèmes suivants :#- Attraper un virus ou une autre infection,#- Recevoir du spam : des courriers électroniques non sollicités,#- Utilisation abusive d'informations personnelles données sur un site internet ou autre violation de la vie privée : par "
+"ex. accès à des informations privées, publication de photos, etc., #- Pertes financières suite à un message frauduleux ou suite au renvoi sur un faux site internet demandant les données personnelles d'identification, #- Pertes financières suite à une "
+"utilisation frauduleuse de la carte de crédit, #- Accès par des enfants, depuis le ménage, à des sites pour adultes ou à des sites où ils pourraient entrer en contact avec des personnes potentiellement dangereuses.";
+VALUENOTE("Informatiksicherheit","Nutzung von Sicherheitssoftware auf Ihrem Smartphone, unabhängig davon, wie sie installiert ist (ab 2019)")="Bruch der Zeitreihe im Jahr 2021. Eine zusätzliche Frage zur Nutzung von Applikationen auf dem eigenen "
+"Mobiltelefon ermöglicht eine umfassendere Erfassung der Smartphone-Nutzerinnen und -Nutzer.";
+VALUENOTE[fr]("Sécurité Internet","Utiliser un logiciel de sécurité sur son smartphone, quel que soit le mode d'installation (depuis 2019)")="Rupture de série temporelle en 2021. Une question supplémentaire sur l'usage d'applications sur son téléphone "
+"mobile permet une prise en compte plus exhaustive des utilisateurs de smartphones.";
+DATASYMBOL1="-";
+DATASYMBOL1[fr]="-";
+DATASYMBOL4="*";
+DATASYMBOL4[fr]="*";
+DATASYMBOL5="()";
+DATASYMBOL5[fr]="()";
+DATASYMBOL6="X";
+DATASYMBOL6[fr]="X";
+DATA=
+4049318 121034 57.5 1.7 4227350 123688 60.9 1.8 4181088 120859 61 1.8 4264618 118248 61.6 1.7 
+247988 46565 27.1 4.5 452098 63473 41.7 4.7 496157 65755 43 4.5 234867 51536 28.3 5.3 
+1373994 99270 56.4 3 1510259 104179 59.1 3 1616750 105288 58.7 2.9 1622374 107227 55.5 2.8 
+1964083 106871 68.4 2.6 1704472 108389 69.9 2.9 1506698 102791 73.4 3 1689114 109821 75.6 3 
+463253 50646 56.3 5 560521 53316 64.4 4.8 561483 54343 63.1 5 718263 41271 76.4 4.4 
+745164 57388 55.8 4.2 900538 57994 62.6 4 909440 57401 64.7 4.1 1150104 73603 76 3.8 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+141973 36729 55.6 10.4 148094 38345 69.5 10.9 162982 39670 66.4 10.6 187838 47645 69.2 10.7 
+133814 36080 57.5 10.9 160983 39711 56.3 10 160239 40470 72.5 10.1 217520 50984 80.1 9 
+463253 50646 56.3 5 560521 53316 64.4 4.8 561483 54343 63.1 5 718263 41271 76.4 4.4 
+2284854 89350 61.7 2.4 2316175 90053 64.2 2.5 2400009 87590 66 2.4 2431571 103009 68.8 2.5 
+181307 39377 34.3 6.3 262454 48537 45.1 6.6 320222 52731 49.4 6.2 161389 43973 41.5 8.9 
+772692 74200 61.1 4.1 892425 79607 62.5 4 1013995 81435 64.7 3.7 1050805 88096 65.8 3.7 
+1330855 86272 69.7 3.1 1161296 86798 72.7 3.5 1065793 83382 74.9 3.5 1219377 95685 78.8 3.4 
+"...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." 
+1019300 65528 50.7 3.2 1010637 63931 53.2 3.4 871638 62386 48.2 3.4 682943 61922 36.3 3 
+60557 23076 16.7 5.9 158704 36309 36.7 7 151199 35316 33.1 6.6 46995 18372 11.5 4.3 
+459328 55758 50 4.9 469740 55888 51.4 4.9 439773 54583 46.6 4.9 383731 51097 36.3 4.2 
+499414 55834 68.3 5 382193 51854 68.8 5.9 280666 45642 68.7 6.9 252217 43017 60.8 7.2 
+"...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." 
+2296184 84002 65.8 2.4 2279615 87408 66.3 2.5 2286773 85211 67.5 2.5 2399295 85187 70.6 2.5 
+120886 32630 31.4 7.1 248491 47962 51.6 7.4 268256 49185 50.3 6.9 103134 35896 35.9 10 
+659143 69669 60.7 4.5 716290 73999 62.1 4.5 784501 75763 63.3 4.3 852317 81482 65.9 4.3 
+1239279 82760 77.3 3.2 1024579 83357 73.4 3.7 926756 79602 79.6 3.7 1050178 86083 79.5 3.7 
+276876 41695 66.7 6.8 290256 43187 71.6 6.6 307260 45027 68.3 6.8 393666 45706 79.2 5.8 
+433945 50961 64.3 5.7 445213 52568 66.2 5.9 465409 53626 68 5.8 635735 66049 81.2 4.7 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+76047 27890 54.2 14.1 62168 26174 67.6 17.7 77369 29136 61.5 15.4 112510 39159 85.5 12 
+78683 28903 70.6 14.9 72913 28830 57.8 15.4 65712 28122 73.1 16.2 113673 39108 84.5 11.4 
+276876 41695 66.7 6.8 290256 43187 71.6 6.6 307260 45027 68.3 6.8 393666 45706 79.2 5.8 
+1253562 74191 68.5 3.3 1277155 77123 68.4 3.4 1349405 76343 72.1 3.3 1341220 83666 75.9 3.4 
+92791 28798 37.9 9.4 146203 36518 51.5 9.5 186406 41568 53 8.6 72181 30505 45.3 14.4 
+345599 52219 64.6 6.3 447555 59802 65.3 5.8 493307 61034 70.9 5.3 528194 66510 73.6 5.5 
+815172 69399 77.5 3.9 683397 69392 76 4.5 669692 68312 81.2 4.3 740845 75320 83.2 4.2 
+"...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." 
+608677 56066 61.9 4.5 557247 55700 62.2 5 471959 52394 56.8 5.2 422340 52421 49.7 5.1 
+"....." "....." "....." "....." 82412 27284 55.6 13.1 66782 23217 40.8 11.5 "....." "....." "....." "....." 
+237497 41571 57.7 7.2 206567 39704 54.8 7.7 213824 40575 51.2 7.5 211613 40715 47.6 7.2 
+345424 47619 78.5 5.7 268269 44868 72.4 7.1 191352 38225 76.6 8.2 195660 38208 65.8 8.4 
+"...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." 
+1753133 88624 49.3 2.5 1947734 89507 55.5 2.5 1894315 88094 54.7 2.5 1865323 88833 52.9 2.5 
+127102 33530 24 5.7 203608 42104 33.8 5.9 227901 44359 36.7 5.9 131732 37416 24.3 6.1 
+714851 71374 52.9 4.1 793969 75012 56.7 4 832249 75258 54.9 3.9 770057 73354 47.2 3.7 
+724804 70947 57.1 4.2 679893 71518 65.2 4.6 579942 66771 65.3 4.9 638936 72940 70.1 5 
+186378 36816 45.7 7.2 270264 42996 58.2 6.8 254223 42894 57.7 7.2 324597 43170 73.2 6.6 
+311219 46633 47.1 6 455325 52946 59.4 5.5 444032 53399 61.5 5.8 514368 61059 70.4 5.8 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+65926 26050 57.2 15.6 85927 30068 71 13.7 85613 29912 71.6 14.4 75328 30161 53.9 15.7 
+55131 23628 45.5 15 88070 29934 55.1 13.1 94527 31888 72.2 12.9 103847 36910 75.8 13.8 
+186378 36816 45.7 7.2 270264 42996 58.2 6.8 254223 42894 57.7 7.2 324597 43170 73.2 6.6 
+1031292 73274 55.1 3.4 1039020 74158 59.8 3.7 1050604 72357 59.5 3.5 1090351 79991 61.8 3.7 
+88516 27434 31.2 8.3 116251 33000 39 9 133816 33598 45.2 8.9 89209 32282 38.9 11.2 
+427094 55654 58.6 5.4 444870 57429 59.9 5.5 520688 59806 59.8 5 522610 62360 59.5 5.1 
+515683 60281 60.1 5 477899 60160 68.5 5.6 396101 54433 66.1 5.8 478532 64080 72.8 5.6 
+"...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." 
+410623 51526 39.9 4.5 453390 52593 45.1 4.6 399679 50973 40.9 4.7 260604 41501 25.2 3.7 
+"....." "....." "....." "....." 76293 24866 26.8 7.7 84417 27499 28.8 8.1 "....." "....." "....." "....." 
+221831 41124 43.8 6.5 263173 43780 49.1 6.4 225949 41095 43 6.5 172119 34349 28.1 5 
+153990 34426 52.9 8.6 113924 30093 61.7 10.6 89314 27435 56.3 11.8 56557 21350 48.1 13.5 
+"...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." 
+941652 81019 13.4 1.1 500077 63581 7.2 0.9 710906 74475 10.4 1.1 678457 75775 9.8 1.1 
+130154 33897 14.2 3.5 66351 25289 6.1 2.3 121977 33088 10.6 2.8 87953 31939 10.6 3.7 
+328159 51473 13.5 2 239091 44879 9.4 1.7 348798 54228 12.7 1.9 376477 57338 12.9 1.9 
+353503 52717 12.3 1.8 122685 33650 5 1.4 131557 33103 6.4 1.6 137294 35552 6.1 1.6 
+129836 30404 15.8 3.6 71951 22419 8.3 2.6 108573 29498 12.2 3.3 76732 25450 8.2 2.7 
+212047 40478 15.9 3 108683 29314 7.6 2 139428 34554 9.9 2.5 117870 34945 7.8 2.3 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+129836 30404 15.8 3.6 71951 22419 8.3 2.6 108573 29498 12.2 3.3 76732 25450 8.2 2.7 
+463449 57022 12.5 1.5 253104 46354 7 1.3 426609 57298 11.7 1.6 408518 60169 11.6 1.7 
+81731 26704 15.5 4.7 "....." "....." "....." "....." 78395 26636 12.1 3.9 65315 28879 16.8 6.9 
+176136 37064 13.9 2.8 146998 35595 10.3 2.4 244620 44854 15.6 2.7 249250 46925 15.6 2.8 
+205583 39497 10.8 2 66725 24826 4.2 1.5 103594 29428 7.3 2 93952 29332 6.1 1.9 
+"...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." 
+266156 44329 13.2 2.2 138290 33254 7.3 1.7 144868 34080 8 1.9 152069 33494 8.1 1.8 
+45728 20381 12.6 5.3 "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+113441 29854 12.4 3.1 80075 25416 8.8 2.7 84734 26513 9 2.8 93977 26142 8.9 2.4 
+106986 29334 14.6 3.8 "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+"...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." 
+196416 40235 5.6 1.2 118077 32452 3.4 0.9 183290 40765 5.4 1.2 140306 37432 4.1 1.1 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+69187 24751 6.4 2.2 51888 22282 4.5 1.9 76607 27227 6.2 2.2 58662 25062 4.5 1.9 
+59225 22135 3.7 1.4 "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+44890 19899 6.7 2.9 "....." "....." "....." "....." 52170 21897 7.6 3.2 "....." "....." "....." "....." 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+79301 26266 4.3 1.4 56108 22954 3 1.2 98169 30395 5.2 1.6 69772 27572 3.9 1.6 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+"....." "....." "....." "....." "....." "....." "....." "....." 54232 22768 7.8 3.2 "....." "....." "....." "....." 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+"...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." 
+72225 23868 7.3 2.4 "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+"...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." 
+745236 70743 20.9 2 382000 54925 10.9 1.6 527616 62517 15.2 1.8 538151 65949 15.3 1.9 
+95146 28889 18 5 "....." "....." "....." "....." 76689 26017 12.4 4 61840 26350 11.4 4.6 
+258973 45272 19.2 3.1 187203 39102 13.4 2.7 272192 47077 18 2.9 317815 51678 19.5 3 
+294278 47896 23.2 3.5 97178 29918 9.3 2.8 111703 30223 12.6 3.3 102520 30838 11.2 3.3 
+96840 26489 23.7 6 52559 19082 11.3 4 67032 23216 15.2 5.1 55976 22456 12.6 4.9 
+167157 36326 25.3 5.2 83714 25769 10.9 3.3 87259 27479 12.1 3.7 89970 31296 12.3 4.1 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+96840 26489 23.7 6 52559 19082 11.3 4 67032 23216 15.2 5.1 55976 22456 12.6 4.9 
+384148 51571 20.5 2.7 196996 40672 11.3 2.3 328440 49485 18.6 2.7 338745 53953 19.2 3 
+58847 22359 20.8 7.2 "....." "....." "....." "....." 49085 20885 16.6 6.5 "....." "....." "....." "....." 
+142450 32958 19.5 4.2 116162 31104 15.6 4 190389 39012 21.8 4.1 208519 42271 23.7 4.4 
+182852 37151 21.3 4 55097 22534 7.9 3.1 88967 26876 14.9 4.2 82907 27741 12.6 4 
+"...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." 
+193931 38451 18.9 3.6 101289 28448 10.1 2.8 111917 30120 11.5 3 109435 27478 10.6 2.6 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+86616 26153 17.1 4.9 59024 21574 11 3.9 71463 24426 13.6 4.4 83190 24361 13.6 3.8 
+73711 24661 25.3 7.5 "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+"...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." 
+2206538 115264 31.3 1.6 2390097 120479 34.4 1.7 2005960 114041 29.3 1.7 2136119 118498 30.8 1.7 
+147498 37175 16.1 3.8 258329 50018 23.8 4.1 205668 43484 17.8 3.5 79735 30402 9.6 3.5 
+670056 73617 27.5 2.7 787458 81937 30.8 2.8 711346 75394 25.8 2.5 733028 81005 25.1 2.5 
+1117509 89681 38.9 2.7 1039912 89883 42.6 3.1 825037 82001 40.2 3.4 989101 90769 44.3 3.4 
+271475 41981 33 4.8 304399 46073 35 4.8 263909 44558 29.6 4.7 334256 45853 35.6 4.9 
+417068 52376 31.2 3.9 478910 56678 33.3 3.9 406446 55030 28.9 3.9 565649 68846 37.4 4.3 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+65940 25768 25.8 9.1 69113 29141 32.4 11.4 "....." "....." "....." "....." 98357 36465 36.3 11.3 
+70440 27426 30.3 10.2 79298 29106 27.7 9.1 79252 29691 35.9 11.3 126816 40032 46.7 11.7 
+271475 41981 33 4.8 304399 46073 35 4.8 263909 44558 29.6 4.7 334256 45853 35.6 4.9 
+1253680 86377 33.9 2.3 1358702 90006 37.7 2.5 1176151 85811 32.3 2.4 1249932 93807 35.4 2.5 
+103140 30586 19.5 5.3 139324 37026 23.9 5.7 138464 35679 21.4 5 64545 27674 16.6 6.6 
+386434 55292 30.6 3.9 483210 63523 33.9 3.9 456547 59336 29.1 3.4 472802 65335 29.6 3.6 
+764106 73460 40 3.4 736168 74689 46.1 3.9 581141 67872 40.8 4 712585 77557 46.1 4.1 
+"...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." 
+535790 58409 26.6 2.9 552486 58665 29.1 3.1 423363 52892 23.4 2.9 320538 47588 17 2.5 
+"....." "....." "....." "....." 92905 28727 21.5 6 56292 21592 12.3 4.5 "....." "....." "....." "....." 
+217682 41271 23.7 4.1 235135 42949 25.7 4.3 202427 40038 21.5 4 161869 35388 15.3 3.2 
+282963 45539 38.7 5.3 224446 41743 40.4 6.3 164645 36406 40.3 7.3 149700 33835 36.1 6.9 
+"...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." 
+1307898 85334 37.5 2.4 1445964 90496 42.1 2.6 1213213 86737 35.8 2.6 1379432 92811 40.6 2.7 
+71275 25876 18.5 6.1 160524 40247 33.3 7 117684 33569 22 5.7 "....." "....." "....." "....." 
+350698 53537 32.3 4.3 431360 61100 37.4 4.5 386352 56424 31.2 4.1 441680 64351 34.1 4.3 
+722860 70458 45.1 3.7 703760 73251 50.4 4.2 572874 67682 49.2 4.6 706648 75992 53.5 4.5 
+163064 33694 39.3 7 150319 34066 37.1 7.1 136303 33279 30.3 6.6 181088 37478 36.5 6.9 
+241178 42261 35.7 5.7 260054 46022 38.6 6.1 220979 43569 32.3 5.8 310144 54657 39.6 6.1 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 76802 32238 57.1 16.7 
+163064 33694 39.3 7 150319 34066 37.1 7.1 136303 33279 30.3 6.6 181088 37478 36.5 6.9 
+725926 67718 39.6 3.4 823164 72881 44.1 3.6 724030 69861 38.7 3.5 841347 77833 47.6 3.9 
+55774 23203 22.8 8.4 79805 28534 28.1 8.6 82607 28058 23.5 7.2 "....." "....." "....." "....." 
+178187 38673 33.3 6.2 259824 47837 37.9 5.8 230440 43371 33.1 5.4 298333 53868 41.6 6 
+491966 58933 46.8 4.6 483535 61289 53.8 5.2 410984 57800 49.8 5.5 503573 65147 56.6 5.5 
+"...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." 
+340793 47843 34.6 4.4 362745 49440 40.5 5 268204 43831 32.3 4.9 227941 41332 26.8 4.5 
+"....." "....." "....." "....." 64396 24362 43.4 12.9 "....." "....." "....." "....." "....." "....." "....." "....." 
+136048 32916 33.1 6.9 125384 31866 33.3 7.3 122001 32001 29.2 6.8 97314 28426 21.9 5.9 
+191584 37761 43.6 6.9 172966 37214 46.7 7.9 119431 31057 47.8 9.5 126273 31364 42.5 8.5 
+"...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." 
+898640 77887 25.3 2.2 944133 80220 26.9 2.3 792747 74850 22.9 2.2 756688 75298 21.4 2.1 
+76223 26818 14.4 4.7 97804 29799 16.2 4.6 87985 27756 14.2 4.2 "....." "....." "....." "....." 
+319358 50773 23.6 3.4 356098 54958 25.4 3.6 324993 50720 21.4 3.1 291348 50092 17.9 2.9 
+394649 56827 31.1 4 336152 53286 32.2 4.5 252164 46928 28.4 4.7 282453 51284 31 5 
+108411 28683 26.6 6.4 154079 34449 33.2 6.5 127606 32993 29 6.7 153167 34172 34.5 6.9 
+175890 37482 26.6 5.3 218855 41527 28.6 5.1 185467 39930 25.7 5.2 255505 48563 35 5.9 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+108411 28683 26.6 6.4 154079 34449 33.2 6.5 127606 32993 29 6.7 153167 34172 34.5 6.9 
+527753 61271 28.2 3.1 535538 62660 30.8 3.4 452121 57224 25.6 3.1 408586 57871 23.2 3.1 
+47366 20202 16.7 6.6 59518 24002 19.9 7.3 55857 22253 18.9 6.9 "....." "....." "....." "....." 
+208247 40641 28.6 4.9 223386 43698 30.1 5.2 226107 42185 25.9 4.4 174469 38213 19.9 4 
+272140 47446 31.7 4.8 252633 46158 36.2 5.6 170157 37969 28.4 5.6 209012 43802 31.8 5.8 
+"...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." 
+194997 39213 19 3.6 189740 38368 18.9 3.7 155159 34949 15.9 3.5 92597 25817 9 2.4 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+81634 26208 16.1 4.9 109751 30273 20.5 5.2 80426 25664 15.3 4.6 64555 21623 10.5 3.4 
+91379 27532 31.4 8.1 51480 20552 27.9 9.7 45213 20082 28.5 10.8 "....." "....." "....." "....." 
+"...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." 
+"..." "..." "..." "..." "..." "..." "..." "..." 4473243 116617 65.3 1.7 4052724 121076 58.5 1.7 
+"..." "..." "..." "..." "..." "..." "..." "..." 460817 64184 39.9 4.5 209746 49160 25.3 5.1 
+"..." "..." "..." "..." "..." "..." "..." "..." 1765835 108285 64.1 2.8 1486757 105634 50.8 2.8 
+"..." "..." "..." "..." "..." "..." "..." "..." 1658310 105285 80.8 2.7 1732653 110445 77.6 2.8 
+"..." "..." "..." "..." "..." "..." "..." "..." 588281 54703 66.1 4.9 623568 45527 66.3 4.8 
+"..." "..." "..." "..." "..." "..." "..." "..." 983380 54906 70 3.9 1063818 76503 70.3 4 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." 176893 41322 72.1 10 189946 48390 70 10.5 
+"..." "..." "..." "..." "..." "..." "..." "..." 190672 42195 86.3 8.2 239345 52287 88.2 7.6 
+"..." "..." "..." "..." "..." "..." "..." "..." 588281 54703 66.1 4.9 623568 45527 66.3 4.8 
+"..." "..." "..." "..." "..." "..." "..." "..." 2625390 82840 72.2 2.3 2359588 104368 66.8 2.5 
+"..." "..." "..." "..." "..." "..." "..." "..." 305100 51888 47.1 6.2 149684 42957 38.5 8.8 
+"..." "..." "..." "..." "..." "..." "..." "..." 1128186 84105 72 3.4 944098 85774 59.1 3.9 
+"..." "..." "..." "..." "..." "..." "..." "..." 1192104 85867 83.7 3 1265807 97614 81.8 3.1 
+"..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." "...." "...." "...." 
+"..." "..." "..." "..." "..." "..." "..." "..." 864473 62534 47.8 3.5 629318 60904 33.4 3 
+"..." "..." "..." "..." "..." "..." "..." "..." 128183 33175 28.1 6.4 49104 20170 12 4.7 
+"..." "..." "..." "..." "..." "..." "..." "..." 460756 55321 48.8 4.9 352713 49078 33.4 4.1 
+"..." "..." "..." "..." "..." "..." "..." "..." 275534 44956 67.5 7 227501 41123 54.8 7.3 
+"..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." "...." "...." "...." 
+"..." "..." "..." "..." "..." "..." "..." "..." 2319101 84070 68.5 2.5 2161990 89848 63.6 2.6 
+"..." "..." "..." "..." "..." "..." "..." "..." 242197 47123 45.4 6.9 93357 33306 32.5 9.7 
+"..." "..." "..." "..." "..." "..." "..." "..." 819620 76930 66.1 4.2 710001 77665 54.9 4.5 
+"..." "..." "..." "..." "..." "..." "..." "..." 956741 80582 82.2 3.6 1023637 85625 77.4 3.7 
+"..." "..." "..." "..." "..." "..." "..." "..." 300543 44722 66.8 6.8 334995 45247 67.4 6.7 
+"..." "..." "..." "..." "..." "..." "..." "..." 484973 54007 70.9 5.6 552673 65059 70.6 5.6 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." 91011 31707 72.3 14 91343 36088 69.4 15.7 
+"..." "..." "..." "..." "..." "..." "..." "..." 78351 29893 87.1 12.5 120115 39490 89.3 10.6 
+"..." "..." "..." "..." "..." "..." "..." "..." 300543 44722 66.8 6.8 334995 45247 67.4 6.7 
+"..." "..." "..." "..." "..." "..." "..." "..." 1385139 76231 74 3.2 1246163 83679 70.5 3.6 
+"..." "..." "..." "..." "..." "..." "..." "..." 171335 40138 48.7 8.6 63619 28727 40 14.1 
+"..." "..." "..." "..." "..." "..." "..." "..." 518538 62045 74.6 5.2 446734 63479 62.3 5.9 
+"..." "..." "..." "..." "..." "..." "..." "..." 695267 69176 84.3 4.1 735810 75381 82.7 4.1 
+"..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." "...." "...." "...." 
+"..." "..." "..." "..." "..." "..." "..." "..." 448989 51641 54 5.2 363155 50055 42.7 5.1 
+"..." "..." "..." "..." "..." "..." "..." "..." 55795 21017 34.1 10.9 "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." 210071 40201 50.3 7.5 171925 37294 38.7 7 
+"..." "..." "..." "..." "..." "..." "..." "..." 183123 37596 73.3 8.5 167712 35806 56.4 8.7 
+"..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." "...." "...." "...." 
+"..." "..." "..." "..." "..." "..." "..." "..." 2154142 84651 62.2 2.4 1890734 88090 53.6 2.5 
+"..." "..." "..." "..." "..." "..." "..." "..." 218620 44040 35.3 5.9 116389 36396 21.5 6 
+"..." "..." "..." "..." "..." "..." "..." "..." 946215 78235 62.4 3.8 776755 74396 47.6 3.7 
+"..." "..." "..." "..." "..." "..." "..." "..." 701569 70534 79 4.2 709016 75526 77.8 4.4 
+"..." "..." "..." "..." "..." "..." "..." "..." 287738 44652 65.3 6.9 288574 42105 65.1 7 
+"..." "..." "..." "..." "..." "..." "..." "..." 498408 54180 69.1 5.5 511145 62644 70 5.6 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." 85882 30019 71.9 14.3 98603 35381 70.6 14.1 
+"..." "..." "..." "..." "..." "..." "..." "..." 112321 33328 85.8 10.9 119231 38943 87.1 11 
+"..." "..." "..." "..." "..." "..." "..." "..." 287738 44652 65.3 6.9 288574 42105 65.1 7 
+"..." "..." "..." "..." "..." "..." "..." "..." 1240250 72393 70.2 3.3 1113426 81004 63.1 3.6 
+"..." "..." "..." "..." "..." "..." "..." "..." 133765 33884 45.2 8.9 86065 32334 37.5 11.2 
+"..." "..." "..." "..." "..." "..." "..." "..." 609649 63195 70 4.6 497364 61315 56.6 5.1 
+"..." "..." "..." "..." "..." "..." "..." "..." 496837 59184 83 4.6 529997 67392 80.7 4.8 
+"..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." "...." "...." "...." 
+"..." "..." "..." "..." "..." "..." "..." "..." 415484 51764 42.5 4.7 266163 41825 25.8 3.7 
+"..." "..." "..." "..." "..." "..." "..." "..." 72388 26292 24.7 7.9 "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." 250685 42949 47.7 6.6 180788 34753 29.5 5.1 
+"..." "..." "..." "..." "..." "..." "..." "..." 92411 27271 58.3 11.8 59788 21533 50.8 13.6 
+"..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." "...." "...." "...." 
+"..." "..." "..." "..." "..." "..." "..." "..." 668243 75558 9.8 1.1 803304 86333 11.6 1.2 
+"..." "..." "..." "..." "..." "..." "..." "..." 89458 30687 7.8 2.6 72421 29801 8.7 3.4 
+"..." "..." "..." "..." "..." "..." "..." "..." 236309 46120 8.6 1.6 299893 52505 10.3 1.7 
+"..." "..." "..." "..." "..." "..." "..." "..." 224198 45194 10.9 2.1 286562 55471 12.8 2.4 
+"..." "..." "..." "..." "..." "..." "..." "..." 118278 31037 13.3 3.5 144428 35131 15.4 3.7 
+"..." "..." "..." "..." "..." "..." "..." "..." 179067 40176 12.7 2.9 232158 49052 15.3 3.2 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." 118278 31037 13.3 3.5 144428 35131 15.4 3.7 
+"..." "..." "..." "..." "..." "..." "..." "..." 359746 55230 9.9 1.5 428933 64989 12.1 1.8 
+"..." "..." "..." "..." "..." "..." "..." "..." 56854 24140 8.8 3.6 "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." 154802 36674 9.9 2.3 177403 40865 11.1 2.5 
+"..." "..." "..." "..." "..." "..." "..." "..." 148090 36479 10.4 2.5 197447 46494 12.8 2.9 
+"..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." "...." "...." "...." 
+"..." "..." "..." "..." "..." "..." "..." "..." 129430 32455 7.2 1.8 142214 32054 7.6 1.7 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." 56492 22010 6 2.3 87382 25204 8.3 2.3 
+"..." "..." "..." "..." "..." "..." "..." "..." 54763 21486 13.4 5 42714 18008 10.3 4.2 
+"..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." "...." "...." "...." 
+"..." "..." "..." "..." "..." "..." "..." "..." 382424 57425 11.3 1.7 469115 67694 13.8 2 
+"..." "..." "..." "..." "..." "..." "..." "..." 57108 24842 10.7 4.4 "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." 140702 35901 11.4 2.8 157807 40267 12.2 3 
+"..." "..." "..." "..." "..." "..." "..." "..." 132360 34723 11.4 2.9 181648 44645 13.7 3.2 
+"..." "..." "..." "..." "..." "..." "..." "..." 52254 21063 11.6 4.6 85685 28572 17.2 5.5 
+"..." "..." "..." "..." "..." "..." "..." "..." 83476 28241 12.2 4 132789 38397 17 4.7 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." 52254 21063 11.6 4.6 85685 28572 17.2 5.5 
+"..." "..." "..." "..." "..." "..." "..." "..." 223190 44526 11.9 2.3 250438 51872 14.2 2.9 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." 95316 29279 13.7 4 92550 31277 12.9 4.1 
+"..." "..." "..." "..." "..." "..." "..." "..." 85211 28356 10.3 3.3 126735 38399 14.2 4.1 
+"..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." "...." "...." "...." 
+"..." "..." "..." "..." "..." "..." "..." "..." 75758 25080 9.1 3 85888 26151 10.1 3 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." 43400 18752 9.8 4.1 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." "...." "...." "...." 
+"..." "..." "..." "..." "..." "..." "..." "..." 285820 49313 8.2 1.4 334190 53726 9.5 1.5 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." 95607 29054 6.3 1.9 142087 34081 8.7 2 
+"..." "..." "..." "..." "..." "..." "..." "..." 91838 29011 10.3 3.1 104914 33138 11.5 3.5 
+"..." "..." "..." "..." "..." "..." "..." "..." 66024 24021 15 5.2 58743 22414 13.2 4.9 
+"..." "..." "..." "..." "..." "..." "..." "..." 95591 30279 13.2 4.1 99369 32155 13.6 4.2 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." 66024 24021 15 5.2 58743 22414 13.2 4.9 
+"..." "..." "..." "..." "..." "..." "..." "..." 136556 33791 7.7 1.9 178495 40122 10.1 2.2 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." 59487 22405 6.8 2.5 84854 26724 9.7 2.9 
+"..." "..." "..." "..." "..." "..." "..." "..." 62880 23295 10.5 3.7 70712 26465 10.8 3.9 
+"..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." "...." "...." "...." 
+"..." "..." "..." "..." "..." "..." "..." "..." 53672 21421 5.5 2.2 56326 19211 5.5 1.8 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." 43982 17132 7.2 2.7 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." "...." "...." "...." 
+"..." "..." "..." "..." "..." "..." "..." "..." 704192 76540 10.3 1.1 629560 76399 9.1 1.1 
+"..." "..." "..." "..." "..." "..." "..." "..." 112017 33052 9.7 2.7 "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." 226898 44004 8.2 1.6 201775 43887 6.9 1.5 
+"..." "..." "..." "..." "..." "..." "..." "..." 245592 47376 12 2.2 258232 50402 11.6 2.2 
+"..." "..." "..." "..." "..." "..." "..." "..." 119685 31916 13.4 3.5 124283 31797 13.2 3.4 
+"..." "..." "..." "..." "..." "..." "..." "..." 167704 39179 11.9 2.8 157634 38702 10.4 2.6 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." 119685 31916 13.4 3.5 124283 31797 13.2 3.4 
+"..." "..." "..." "..." "..." "..." "..." "..." 465178 61010 12.8 1.7 424987 63255 12 1.8 
+"..." "..." "..." "..." "..." "..." "..." "..." 90176 29268 13.9 4.3 "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." 177060 38485 11.3 2.4 160037 39009 10 2.4 
+"..." "..." "..." "..." "..." "..." "..." "..." 197943 41635 13.9 2.8 226163 46519 14.6 2.9 
+"..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." "...." "...." "...." 
+"..." "..." "..." "..." "..." "..." "..." "..." 71310 24307 3.9 1.3 46939 19752 2.5 1 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." "...." "...." "...." 
+"..." "..." "..." "..." "..." "..." "..." "..." 358591 55142 10.6 1.6 340892 57837 10 1.7 
+"..." "..." "..." "..." "..." "..." "..." "..." 53167 23601 10 4.2 "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." 113427 32085 9.2 2.5 106257 33993 8.2 2.6 
+"..." "..." "..." "..." "..." "..." "..." "..." 136093 34873 11.7 2.9 153607 39120 11.6 2.9 
+"..." "..." "..." "..." "..." "..." "..." "..." 55905 21881 12.4 4.7 59158 22901 11.9 4.5 
+"..." "..." "..." "..." "..." "..." "..." "..." 74884 26403 10.9 3.8 77875 28317 9.9 3.5 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." 55905 21881 12.4 4.7 59158 22901 11.9 4.5 
+"..." "..." "..." "..." "..." "..." "..." "..." 248838 45940 13.3 2.4 232193 48675 13.1 2.7 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." 91120 28647 13.1 3.9 81274 30282 11.3 4 
+"..." "..." "..." "..." "..." "..." "..." "..." 114825 31479 13.9 3.6 133916 36227 15 3.9 
+"..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." "...." "...." "...." 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." "...." "...." "...." 
+"..." "..." "..." "..." "..." "..." "..." "..." 345601 53595 10 1.5 288669 50584 8.2 1.4 
+"..." "..." "..." "..." "..." "..." "..." "..." 58850 23259 9.5 3.6 "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." 113471 30377 7.5 2 95518 27832 5.9 1.7 
+"..." "..." "..." "..." "..." "..." "..." "..." 109499 32223 12.3 3.5 104624 32297 11.5 3.4 
+"..." "..." "..." "..." "..." "..." "..." "..." 63781 24338 14.5 5.3 65125 23687 14.7 5.1 
+"..." "..." "..." "..." "..." "..." "..." "..." 92819 30332 12.9 4.1 79760 27708 10.9 3.7 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." 63781 24338 14.5 5.3 65125 23687 14.7 5.1 
+"..." "..." "..." "..." "..." "..." "..." "..." 216340 41853 12.2 2.3 192794 41715 10.9 2.3 
+"..." "..." "..." "..." "..." "..." "..." "..." 47283 20210 16 6.4 "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." 85940 26131 9.9 2.9 78763 24715 9 2.7 
+"..." "..." "..." "..." "..." "..." "..." "..." 83118 27640 13.9 4.4 92247 29929 14 4.3 
+"..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." "...." "...." "...." 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "....." "....." "....." "....." "....." "....." "....." "....." 
+"..." "..." "..." "..." "..." "..." "..." "..." "...." "...." "...." "...." "...." "...." "...." "...." 
+5042572 108740 71.5 1.5 4954422 111118 71.3 1.6 4225760 118956 61.7 1.7 3703404 124276 53.5 1.8 
+352037 54009 38.5 4.9 446306 63458 41.1 4.7 400167 60184 34.7 4.4 157525 41945 19 4.6 
+1629023 105433 66.8 2.8 1740336 109696 68.1 2.8 1675343 106344 60.8 2.8 1359678 102583 46.5 2.8 
+2477903 112248 86.3 1.9 2128350 114122 87.3 2.1 1619673 104526 78.9 2.8 1669990 109423 74.8 2.9 
+583609 53053 70.9 4.6 639431 55298 73.5 4.3 530577 54579 59.6 5 516211 47825 54.9 5.1 
+983154 52029 73.6 3.7 1085832 50679 75.5 3.5 903838 57091 64.3 4.1 941350 77641 62.2 4.2 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+199875 41790 78.2 8.6 177936 41617 83.5 8.5 165007 40289 67.3 10.4 179701 47433 66.2 10.9 
+188961 41222 81.2 8.7 254611 46320 89 6.3 183785 41592 83.2 9 239345 52287 88.2 7.6 
+583609 53053 70.9 4.6 639431 55298 73.5 4.3 530577 54579 59.6 5 516211 47825 54.9 5.1 
+2863556 77887 77.4 2 2806900 78001 77.8 2.2 2490737 85337 68.5 2.3 2178790 105733 61.7 2.6 
+231864 43477 43.9 6.5 305696 53015 52.5 6.6 254644 47620 39.3 6 106386 36009 27.4 8 
+932785 79234 73.8 3.7 1068878 84594 74.9 3.6 1073753 82929 68.5 3.5 862006 83158 54 3.9 
+1698907 89007 89 2.1 1432326 90184 89.7 2.4 1162341 85337 81.6 3.2 1210398 96257 78.2 3.3 
+"...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." 
+1195863 63801 59.4 3.1 1061691 63190 55.8 3.3 831184 62358 46 3.4 583265 59286 31 3 
+109464 30884 30.2 7.3 126756 32774 29.3 6.6 121054 32342 26.5 6.3 45047 19376 11 4.5 
+496363 57076 54.1 4.8 493522 56898 54 4.9 436584 54228 46.3 4.9 317972 46569 30.1 4 
+590036 58638 80.7 4.3 441413 54072 79.5 5.2 273547 44850 67 7 220246 40645 53.1 7.3 
+"...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." 
+2636631 75256 75.6 2.2 2556645 80087 74.4 2.3 2206406 86071 65.1 2.5 1976444 92494 58.1 2.7 
+170300 38092 44.2 7.6 229910 45734 47.7 7.3 209429 43829 39.2 6.7 60761 26356 21.1 8.3 
+749311 73086 69 4.3 786268 77099 68.1 4.3 779087 75584 62.9 4.3 648993 74991 50.2 4.5 
+1412459 83979 88.1 2.4 1248748 87097 89.4 2.6 933730 79874 80.2 3.7 990621 85117 74.9 3.8 
+304561 43486 73.4 6.2 291718 44109 72 6.4 284159 44101 63.2 7 276068 43478 55.6 7.1 
+502935 52245 74.5 5.1 493988 53777 73.4 5.4 458637 53557 67 5.8 488881 63964 62.4 6 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+108240 32167 77.2 12 72112 28664 78.4 15.3 91011 31707 72.3 14 91343 36088 69.4 15.7 
+85219 29975 76.5 13.8 117442 34982 93 7.6 71464 28651 79.4 15.2 120115 39490 89.3 10.6 
+304561 43486 73.4 6.2 291718 44109 72 6.4 284159 44101 63.2 7 276068 43478 55.6 7.1 
+1474853 72675 80.6 2.8 1469230 75093 78.7 3 1309039 76645 69.9 3.4 1150901 83652 65.1 3.7 
+118945 32013 48.6 9.7 158802 38176 56 9.5 141632 36470 40.3 8.4 "....." "....." "....." "....." 
+395051 55303 73.8 5.8 490089 62136 71.6 5.5 488265 60657 70.2 5.4 403266 60738 56.2 6 
+960857 71732 91.4 2.5 820340 72592 91.2 3 679143 68728 82.4 4.2 710048 74693 79.8 4.3 
+"...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." 
+658843 56584 67 4.4 593427 56337 66.2 4.9 438729 51258 52.8 5.2 336662 48422 39.6 5 
+46441 20129 35 12.3 58393 23097 39.4 12.6 55795 21017 34.1 10.9 "....." "....." "....." "....." 
+246020 42075 59.8 7.2 224067 41426 59.4 7.7 199811 39256 47.8 7.4 154384 34976 34.8 6.8 
+366382 48610 83.3 5.2 310966 47133 83.9 5.9 183123 37596 73.3 8.5 160458 35228 54 8.7 
+"...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." 
+2405942 81590 67.6 2.3 2397777 80896 68.3 2.3 2019354 85969 58.3 2.5 1726961 89406 49 2.5 
+181738 38993 34.3 6.2 216395 44680 35.9 6.1 190738 41522 30.8 5.7 96764 32571 17.9 5.5 
+879712 76818 65.1 3.8 954067 79688 68.2 3.7 896256 76803 59.1 3.8 710685 72371 43.6 3.7 
+1065444 79348 83.9 3.1 879601 77860 84.4 3.5 685943 70021 77.2 4.3 679369 74414 74.5 4.6 
+279047 42476 68.4 6.8 347713 46935 74.8 5.9 246418 42283 56 7.2 240143 40226 54.2 7.3 
+480219 51652 72.8 5.3 591844 54365 77.3 4.6 445201 52895 61.7 5.8 452469 61224 61.9 5.9 
+"....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." "....." 
+91635 30519 79.5 12.2 105824 32930 87.5 9.3 73995 28122 61.9 15.3 88358 33757 63.3 15 
+103742 31515 85.6 10.7 137168 35685 85.8 9.4 112321 33328 85.8 10.9 119231 38943 87.1 11 
+279047 42476 68.4 6.8 347713 46935 74.8 5.9 246418 42283 56 7.2 240143 40226 54.2 7.3 
+1388703 73042 74.3 3 1337670 73697 76.9 3.1 1181698 72315 66.9 3.3 1027889 80020 58.2 3.7 
+112919 30277 39.9 8.7 146894 38019 49.2 9.3 113012 31309 38.1 8.6 68800 28255 30 10.5 
+537734 60496 73.8 4.8 578789 63264 78 4.8 585488 62495 67.2 4.7 458739 59764 52.2 5.1 
+738049 67168 86.1 3.5 611987 65861 87.7 3.8 483198 58597 80.7 4.8 500350 65819 76.1 5.3 
+"...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." 
+537020 55752 52.2 4.6 468264 53001 46.6 4.6 392456 50885 40.2 4.7 246603 40491 23.9 3.6 
+63023 23889 27.4 9 68363 23899 24.1 7.5 65259 25172 22.3 7.7 "....." "....." "....." "....." 
+250343 43180 49.4 6.6 269454 44038 50.2 6.4 236773 41945 45.1 6.5 163588 33208 26.7 4.9 
+223653 40126 76.8 7.5 130446 31797 70.6 10 90424 27036 57 11.8 59788 21533 50.8 13.6 
+"...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." "...." 
+3253478 121623 46.2 1.7 2982638 123495 42.9 1.8 "..." "..." "..." "..." "..." "..." "..." "..." 
+168929 38682 18.5 3.9 201684 44434 18.6 3.8 "..." "..." "..." "..." "..." "..." "..." "..." 
+962768 87075 39.5 3 999717 89502 39.1 3 "..." "..." "..." "..." "..." "..." "..." "..." 
+1767197 104156 61.5 2.7 1468432 102341 60.2 3.1 "..." "..." "..." "..." "..." "..." "..." "..." 
+354584 48041 43.1 5 312805 47630 36 4.7 "..." "..." "..." "..." "..." "..." "..." "..." 
+640611 57274 48 4.2 597967 57692 41.6 4 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+132942 36100 52 10.5 111547 34394 52.4 11.8 "..." "..." "..." "..." "..." "..." "..." "..." 
+145464 37184 62.5 10.8 165394 39786 57.8 10 "..." "..." "..." "..." "..." "..." "..." "..." 
+354584 48041 43.1 5 312805 47630 36 4.7 "..." "..." "..." "..." "..." "..." "..." "..." 
+1903717 89985 51.4 2.4 1767129 92755 49 2.6 "..." "..." "..." "..." "..." "..." "..." "..." 
+118056 32059 22.4 5.5 117634 34854 20.2 5.4 "..." "..." "..." "..." "..." "..." "..." "..." 
+564731 65402 44.7 4.2 631717 69975 44.3 4.1 "..." "..." "..." "..." "..." "..." "..." "..." 
+1220930 84503 64 3.3 1017778 83183 63.7 3.7 "..." "..." "..." "..." "..." "..." "..." "..." 
+"...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." "..." "..." "..." 
+709150 62082 35.2 3.1 617542 60204 32.5 3.2 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." 75829 26190 17.5 5.6 "..." "..." "..." "..." "..." "..." "..." "..." 
+265095 44972 28.9 4.4 256453 44452 28.1 4.4 "..." "..." "..." "..." "..." "..." "..." "..." 
+400803 51135 54.8 5.4 285260 46126 51.4 6.4 "..." "..." "..." "..." "..." "..." "..." "..." 
+"...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." "..." "..." "..." 
+1836964 87439 52.6 2.5 1707480 91064 49.7 2.6 "..." "..." "..." "..." "..." "..." "..." "..." 
+89171 28368 23.1 6.5 120459 34417 25 6.3 "..." "..." "..." "..." "..." "..." "..." "..." 
+469382 61190 43.2 4.6 489359 64332 42.4 4.6 "..." "..." "..." "..." "..." "..." "..." "..." 
+1095430 80323 68.4 3.5 933318 81053 66.8 3.9 "..." "..." "..." "..." "..." "..." "..." "..." 
+182981 36474 44.1 7 164343 36683 40.6 7.2 "..." "..." "..." "..." "..." "..." "..." "..." 
+332175 47807 49.2 5.9 310031 48566 46.1 6.1 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+74984 27306 53.5 14.1 "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+69295 27195 62.2 15.8 85902 30715 68 14.5 "..." "..." "..." "..." "..." "..." "..." "..." 
+182981 36474 44.1 7 164343 36683 40.6 7.2 "..." "..." "..." "..." "..." "..." "..." "..." 
+1089368 73410 59.5 3.4 1023212 75890 54.8 3.6 "..." "..." "..." "..." "..." "..." "..." "..." 
+65548 24387 26.8 8.7 69973 26539 24.7 8.2 "..." "..." "..." "..." "..." "..." "..." "..." 
+266293 46647 49.8 6.6 315504 51470 46.1 6 "..." "..." "..." "..." "..." "..." "..." "..." 
+757527 68255 72.1 4.1 637735 67790 70.9 4.7 "..." "..." "..." "..." "..." "..." "..." "..." 
+"...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." "..." "..." "..." 
+415421 50884 42.2 4.6 374237 50278 41.8 5 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+128104 31907 31.1 6.7 121152 31847 32.1 7.3 "..." "..." "..." "..." "..." "..." "..." "..." 
+268608 43253 61.1 6.7 209681 40558 56.6 7.8 "..." "..." "..." "..." "..." "..." "..." "..." 
+"...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." "..." "..." "..." 
+1416515 86567 39.8 2.4 1275158 86263 36.3 2.5 "..." "..." "..." "..." "..." "..." "..." "..." 
+79758 26397 15.1 4.7 81225 28313 13.5 4.4 "..." "..." "..." "..." "..." "..." "..." "..." 
+493387 62310 36.5 3.9 510357 63279 36.5 3.9 "..." "..." "..." "..." "..." "..." "..." "..." 
+671767 69126 52.9 4.2 535114 65407 51.3 4.8 "..." "..." "..." "..." "..." "..." "..." "..." 
+171603 35892 42.1 7.2 148461 34041 31.9 6.3 "..." "..." "..." "..." "..." "..." "..." "..." 
+308436 47084 46.7 6 287936 45860 37.6 5.4 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." 58844 24577 48.6 15.4 "..." "..." "..." "..." "..." "..." "..." "..." 
+76169 27518 62.8 14.6 79493 27992 49.7 13.2 "..." "..." "..." "..." "..." "..." "..." "..." 
+171603 35892 42.1 7.2 148461 34041 31.9 6.3 "..." "..." "..." "..." "..." "..." "..." "..." 
+814349 69450 43.5 3.4 743917 69641 42.8 3.7 "..." "..." "..." "..." "..." "..." "..." "..." 
+52508 20952 18.5 6.8 "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+298437 47739 40.9 5.4 316213 50189 42.6 5.5 "..." "..." "..." "..." "..." "..." "..." "..." 
+463403 58067 54 5.1 380042 55552 54.4 5.9 "..." "..." "..." "..." "..." "..." "..." "..." 
+"...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." "..." "..." "..." 
+293729 45337 28.6 4.1 243304 42126 24.2 4 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+136991 33373 27 5.9 135301 32927 25.2 5.5 "..." "..." "..." "..." "..." "..." "..." "..." 
+132195 31404 45.4 8.6 75579 24669 40.9 10.6 "..." "..." "..." "..." "..." "..." "..." "..." 
+"...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." "..." "..." "..." 
+231319 45635 3.3 0.6 260246 49411 3.7 0.7 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." 54575 22493 5 2 "..." "..." "..." "..." "..." "..." "..." "..." 
+99007 30151 4.1 1.2 73239 27138 2.9 1.1 "..." "..." "..." "..." "..." "..." "..." "..." 
+71576 25688 2.5 0.9 80739 27107 3.3 1.1 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." 51692 22958 5.9 2.6 "..." "..." "..." "..." "..." "..." "..." "..." 
+51144 22010 3.8 1.6 63127 25344 4.4 1.8 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." 51692 22958 5.9 2.6 "..." "..." "..." "..." "..." "..." "..." "..." 
+119953 32556 3.2 0.9 142197 36148 3.9 1 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+54095 21737 4.3 1.7 "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+48161 20901 2.5 1.1 61779 23848 3.9 1.5 "..." "..." "..." "..." "..." "..." "..." "..." 
+"...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." "..." "..." "..." 
+60222 23178 3 1.2 54922 22233 2.9 1.2 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." "..." "..." "..." 
+128387 33386 3.7 1 148627 37890 4.3 1.1 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+60281 23411 5.5 2.1 "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+41543 19021 2.6 1.2 46838 20812 3.4 1.5 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+72118 24695 3.9 1.3 78266 27309 4.2 1.5 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." "..." "..." "..." 
+102932 31181 2.9 0.9 111619 31765 3.2 0.9 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." 63931 24034 3.7 1.4 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." "..." "..." "..." 
+403054 60196 5.7 0.9 371498 58757 5.3 0.8 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." 51040 21748 4.7 2 "..." "..." "..." "..." "..." "..." "..." "..." 
+117595 33431 4.8 1.3 107282 32599 4.2 1.3 "..." "..." "..." "..." "..." "..." "..." "..." 
+204319 44017 7.1 1.5 164486 40524 6.7 1.6 "..." "..." "..." "..." "..." "..." "..." "..." 
+46624 19867 5.7 2.4 48690 19671 5.6 2.2 "..." "..." "..." "..." "..." "..." "..." "..." 
+104741 31746 7.8 2.4 103475 31691 7.2 2.2 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+46624 19867 5.7 2.4 48690 19671 5.6 2.2 "..." "..." "..." "..." "..." "..." "..." "..." 
+222925 44193 6 1.2 202481 42748 5.6 1.2 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+72915 25269 5.8 2 63298 24048 4.4 1.7 "..." "..." "..." "..." "..." "..." "..." "..." 
+126464 34389 6.6 1.8 113993 33012 7.1 2 "..." "..." "..." "..." "..." "..." "..." "..." 
+"...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." "..." "..." "..." 
+75387 26026 3.7 1.3 65542 24854 3.4 1.3 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+50435 21046 6.9 2.8 "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." "..." "..." "..." 
+208008 42706 6 1.2 196035 42704 5.7 1.2 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+53624 21935 4.9 2 58858 23702 5.1 2 "..." "..." "..." "..." "..." "..." "..." "..." 
+123746 33794 7.7 2.1 83815 29182 6 2 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+118952 32265 6.5 1.7 102447 29938 5.5 1.6 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+73508 26174 7 2.4 47123 20643 5.2 2.3 "..." "..." "..." "..." "..." "..." "..." "..." 
+"...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." "..." "..." "..." 
+45345 19834 4.6 2 "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." "..." "..." "..." 
+195046 42616 5.5 1.2 175463 40397 5 1.2 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+63971 25252 4.7 1.8 48424 22480 3.5 1.6 "..." "..." "..." "..." "..." "..." "..." "..." 
+80573 28389 6.3 2.2 80672 28033 7.7 2.6 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+61030 24807 9.2 3.7 51286 21334 6.7 2.8 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+103974 30822 5.6 1.6 100034 30946 5.8 1.8 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+52956 22689 6.2 2.6 66870 25897 9.6 3.6 "..." "..." "..." "..." "..." "..." "..." "..." 
+"...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." "..." "..." "..." 
+3779059 123811 53.6 1.8 3398938 126301 48.9 1.8 "..." "..." "..." "..." "..." "..." "..." "..." 
+383500 56219 41.9 4.9 360359 57246 33.2 4.5 "..." "..." "..." "..." "..." "..." "..." "..." 
+1237310 95837 50.8 3 1252513 97694 49 3 "..." "..." "..." "..." "..." "..." "..." "..." 
+1694856 103886 59 2.8 1355365 101090 55.6 3.2 "..." "..." "..." "..." "..." "..." "..." "..." 
+463393 49062 56.3 5.1 430701 49208 49.5 5 "..." "..." "..." "..." "..." "..." "..." "..." 
+731910 57514 54.8 4.2 728331 60032 50.6 4.2 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+147367 37055 57.7 10.4 105937 33709 49.7 11.8 "..." "..." "..." "..." "..." "..." "..." "..." 
+113015 33793 48.6 11.1 163778 39773 57.3 10 "..." "..." "..." "..." "..." "..." "..." "..." 
+463393 49062 56.3 5.1 430701 49208 49.5 5 "..." "..." "..." "..." "..." "..." "..." "..." 
+2136706 91618 57.7 2.4 1975892 93135 54.8 2.6 "..." "..." "..." "..." "..." "..." "..." "..." 
+272986 47319 51.7 6.6 238412 46791 41 6.5 "..." "..." "..." "..." "..." "..." "..." "..." 
+692975 71708 54.8 4.2 804752 77030 56.4 4.1 "..." "..." "..." "..." "..." "..." "..." "..." 
+1170745 84518 61.3 3.3 932729 81460 58.4 3.9 "..." "..." "..." "..." "..." "..." "..." "..." 
+"...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." "..." "..." "..." 
+910442 64653 45.2 3.2 694715 61043 36.5 3.2 "..." "..." "..." "..." "..." "..." "..." "..." 
+102380 29626 28.2 7.1 94033 28177 21.7 5.9 "..." "..." "..." "..." "..." "..." "..." "..." 
+396967 52616 43.2 4.8 341824 50193 37.4 4.7 "..." "..." "..." "..." "..." "..." "..." "..." 
+411095 52025 56.2 5.3 258858 44298 46.6 6.3 "..." "..." "..." "..." "..." "..." "..." "..." 
+"...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." "..." "..." "..." 
+1999258 87513 57.3 2.5 1779530 91354 51.8 2.7 "..." "..." "..." "..." "..." "..." "..." "..." 
+184433 39498 47.8 7.7 185386 41652 38.5 7.1 "..." "..." "..." "..." "..." "..." "..." "..." 
+590698 67300 54.4 4.6 589143 69501 51.1 4.6 "..." "..." "..." "..." "..." "..." "..." "..." 
+962921 77967 60.1 3.7 771833 76612 55.3 4.2 "..." "..." "..." "..." "..." "..." "..." "..." 
+261207 40437 62.9 6.9 233169 39971 57.6 7.3 "..." "..." "..." "..." "..." "..." "..." "..." 
+422229 50714 62.5 5.8 374476 50972 55.6 6.2 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+90873 29660 64.8 13.6 "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+67810 27240 60.9 15.8 74343 29137 58.9 15.4 "..." "..." "..." "..." "..." "..." "..." "..." 
+261207 40437 62.9 6.9 233169 39971 57.6 7.3 "..." "..." "..." "..." "..." "..." "..." "..." 
+1104161 74098 60.3 3.5 1029078 76150 55.1 3.6 "..." "..." "..." "..." "..." "..." "..." "..." 
+141863 34926 58 9.6 120552 33626 42.5 9.4 "..." "..." "..." "..." "..." "..." "..." "..." 
+307958 49883 57.6 6.5 384788 56694 56.2 6 "..." "..." "..." "..." "..." "..." "..." "..." 
+654340 65309 62.2 4.5 523738 63257 58.2 5.2 "..." "..." "..." "..." "..." "..." "..." "..." 
+"...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." "..." "..." "..." 
+472868 52817 48.1 4.6 375976 50092 42 5 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." 47960 20240 32.4 11.8 "..." "..." "..." "..." "..." "..." "..." "..." 
+191867 38722 46.6 7.3 154265 35819 40.9 7.7 "..." "..." "..." "..." "..." "..." "..." "..." 
+240771 40975 54.7 6.9 173752 37574 46.9 7.8 "..." "..." "..." "..." "..." "..." "..." "..." 
+"...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." "..." "..." "..." 
+1779800 88766 50 2.5 1619408 89546 46.1 2.6 "..." "..." "..." "..." "..." "..." "..." "..." 
+199067 41082 37.6 6.4 174973 39792 29 5.7 "..." "..." "..." "..." "..." "..." "..." "..." 
+646612 68832 47.9 4 663370 69922 47.4 4 "..." "..." "..." "..." "..." "..." "..." "..." 
+731935 71214 57.6 4.2 583532 67635 56 4.8 "..." "..." "..." "..." "..." "..." "..." "..." 
+202186 37367 49.6 7.3 197532 36908 42.5 6.7 "..." "..." "..." "..." "..." "..." "..." "..." 
+309681 46359 46.9 6 353855 49239 46.2 5.6 "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." "....." "....." "....." "....." "..." "..." "..." "..." "..." "..." "..." "..." 
+"....." "....." "....." "....." 89435 29713 56 13.1 "..." "..." "..." "..." "..." "..." "..." "..." 
+202186 37367 49.6 7.3 197532 36908 42.5 6.7 "..." "..." "..." "..." "..." "..." "..." "..." 
+1032545 73338 55.2 3.4 946814 73219 54.5 3.7 "..." "..." "..." "..." "..." "..." "..." "..." 
+131122 33336 46.3 8.9 117859 33328 39.5 9 "..." "..." "..." "..." "..." "..." "..." "..." 
+385017 54015 52.8 5.4 419964 56051 56.6 5.6 "..." "..." "..." "..." "..." "..." "..." "..." 
+516406 60338 60.2 5.1 408991 56806 58.6 5.8 "..." "..." "..." "..." "..." "..." "..." "..." 
+"...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." "..." "..." "..." 
+437574 51887 42.5 4.5 318739 46700 31.7 4.3 "..." "..." "..." "..." "..." "..." "..." "..." 
+62150 23460 27 8.9 46074 20109 16.2 6.6 "..." "..." "..." "..." "..." "..." "..." "..." 
+205100 38959 40.5 6.4 187559 38144 35 6.1 "..." "..." "..." "..." "..." "..." "..." "..." 
+170324 36013 58.5 8.5 85106 25844 46.1 10.8 "..." "..." "..." "..." "..." "..." "..." "..." 
+"...." "...." "...." "...." "...." "...." "...." "...." "..." "..." "..." "..." "..." "..." "..." "..."; 
